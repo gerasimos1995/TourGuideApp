@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <TextView
+        android:id="@+id/beaches_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/beaches"
+        android:gravity="center"
+        android:background="@color/orange"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_grey"/>
+
+    <TextView
+        android:id="@+id/museums_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/museums"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_grey"/>
+
+    <TextView
+        android:id="@+id/attractions_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/products"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_grey"/>
+
+    <TextView
+        android:id="@+id/cities_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/cities"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>
